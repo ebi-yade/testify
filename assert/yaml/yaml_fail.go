@@ -9,7 +9,7 @@
 //	go test -tags testify_yaml_fail
 package yaml
 
-import "errors"
+import "github.com/cockroachdb/errors"
 
 var errNotImplemented = errors.New("YAML functions are not available (see https://pkg.go.dev/github.com/stretchr/testify/assert/yaml)")
 

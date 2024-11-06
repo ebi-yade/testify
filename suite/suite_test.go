@@ -2,7 +2,6 @@ package suite
 
 import (
 	"bytes"
-	"errors"
 	"flag"
 	"io/ioutil"
 	"math/rand"
@@ -11,6 +10,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/cockroachdb/errors"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

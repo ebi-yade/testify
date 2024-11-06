@@ -1,9 +1,10 @@
 package require
 
 import (
-	"errors"
 	"testing"
 	"time"
+
+	"github.com/cockroachdb/errors"
 )
 
 func TestImplementsWrapper(t *testing.T) {

@@ -2,9 +2,10 @@ package require
 
 import (
 	"encoding/json"
-	"errors"
 	"testing"
 	"time"
+
+	"github.com/cockroachdb/errors"
 
 	"github.com/stretchr/testify/assert"
 )

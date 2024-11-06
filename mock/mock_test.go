@@ -1,13 +1,14 @@
 package mock
 
 import (
-	"errors"
 	"fmt"
 	"regexp"
 	"runtime"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/cockroachdb/errors"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
