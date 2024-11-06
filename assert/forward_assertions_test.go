@@ -1,10 +1,11 @@
 package assert
 
 import (
-	"errors"
 	"regexp"
 	"testing"
 	"time"
+
+	"github.com/cockroachdb/errors"
 )
 
 func TestImplementsWrapper(t *testing.T) {
